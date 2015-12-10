@@ -17,14 +17,14 @@
         <dependency>
             <groupId>com.redhat.demo.promotion</groupId>
             <artifactId>eip</artifactId>
-            <version>2.0</version>
+            <version>2.0-SNAPSHOT</version>
             <type>zip</type>
             <classifier>profile</classifier>
         </dependency>
         <dependency>
             <groupId>com.redhat.demo.promotion</groupId>
             <artifactId>rest</artifactId>
-            <version>1.5</version>
+            <version>1.5-SNAPSHOT</version>
             <type>zip</type>
             <classifier>profile</classifier>
         </dependency>
@@ -45,8 +45,8 @@
                         </goals>
                         <configuration>
                             <!-- lets choose the name of the version in the git repository where we will create the branch -->
-                            <branchName>1.0.</branchName>
-                            <gitUrl>http://admin:admin@postamac.local:8181/git/fabric</gitUrl>
+                            <branchName>1.1</branchName>
+                            <gitUrl>http://admin:admin@localhost:8181/git/fabric</gitUrl>
                             <oldBranchName>1.0</oldBranchName>
                             <pushOnSuccess>true</pushOnSuccess>
                         </configuration>

@@ -30,7 +30,7 @@
     <groupId>com.redhat.demo.promotion</groupId>
     <artifactId>rest</artifactId>
     <packaging>bundle</packaging>
-    <version>1.5</version>
+    <version>1.5-SNAPSHOT</version>
     <name>JBoss Fuse :: Examples :: RESTful WebService</name>
     <description>RESTful WebService Example using JAX-RS with JBoss Fuse</description>
 
@@ -52,7 +52,7 @@
     </developers>
 
     <properties>
-        <!-- 
+        <!--
           Explicitly declaring the source encoding eliminates the following message:
           [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
         -->
@@ -66,9 +66,8 @@
         <version.maven-surefire-plugin>2.15</version.maven-surefire-plugin>
         <version.maven-bundle-plugin>2.3.4</version.maven-bundle-plugin>
         <!-- the version of the JBoss Fuse BOM, defining all the dependency versions -->
-        <jboss.fuse.bom.version>6.1.0.redhat-379</jboss.fuse.bom.version>
-        <fabric.version>1.0.0.redhat-379</fabric.version>
-        <cxf-version-range>[2.7,3)</cxf-version-range>
+        <jboss.fuse.bom.version>6.2.0.redhat-133</jboss.fuse.bom.version>
+        <fabric.version>1.2.0.redhat-133</fabric.version>
     </properties>
 
     <licenses>
