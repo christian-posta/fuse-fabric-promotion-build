@@ -15,16 +15,16 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-<features name="quickstart-rest-6.1.0.redhat-379"
+<features name="quickstart-rest-6.2.0.redhat-133"
           xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 
-  <repository>mvn:org.apache.cxf.karaf/apache-cxf/2.7.0.redhat-610379/xml/features</repository>
-  <repository>mvn:io.fabric8/fabric8-karaf/1.0.0.redhat-379/xml/features</repository>
+  <repository>mvn:org.apache.cxf.karaf/apache-cxf/3.0.4.redhat-620133/xml/features</repository>
+  <repository>mvn:io.fabric8/fabric8-karaf/1.2.0.redhat-133/xml/features</repository>
 
-  <feature name="quickstart-rest" version="6.1.0.redhat-379" resolver="(obr)">
-      <feature version="1.0.0.redhat-379">swagger</feature>
-      <feature version="${cxf-version-range}">cxf-jaxrs</feature>
-      <bundle>mvn:org.jboss.quickstarts.fuse/rest/6.1.0.redhat-379</bundle>
+  <feature name="quickstart-rest" version="6.2.0.redhat-133" resolver="(obr)">
+      <feature version="1.2.0.redhat-133">swagger</feature>
+      <feature version="3.0.4.redhat-620133">cxf-jaxrs</feature>
+      <bundle>mvn:org.jboss.quickstarts.fuse/rest/6.2.0.redhat-133</bundle>
   </feature>
 
 </features>
